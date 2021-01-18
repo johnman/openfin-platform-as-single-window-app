@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OpenFin Template</title>
+    <script src="components/openfin-link.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <link rel="stylesheet" href="style/main.css" />
+    <style>
+      body {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      OpenFin Platform App Configured to look like a traditional OpenFin Window
+      App
+    </h1>
+    <p>
+      You are running OpenFin Runtime version:
+      <span id="openfin-version"></span>
+    </p>
+    <p>
+      This is a basic barebones app where we have configured the snapshot to
+      have one url and hide the tab header. This makes it look like a single
+      window even though you still have the power of the Platform API and the
+      ability to customise the platform provider or the style of the header etc.
+    </p>
+    <p>
+      <openfin-link
+        show-in-fin="false"
+        href="fins://./config/app.platform.fin.json"
+        >Launch OpenFin Platform Application</openfin-link
+      >
+    </p>
+  </body>
+</html>
