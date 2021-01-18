@@ -1,7 +1,7 @@
 {
-  "name": "openfin-template",
+  "name": "openfin-platform-as-single-window-app",
   "version": "1.0.0",
-  "description": "Openfin template",
+  "description": "This example shows the manifest configured to show a single url with no tabs so it looks like a traditional OpenFin window app but you still have the power of the platform api.",
   "main": "index.html",
   "scripts": {
     "start": "serve"
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/johnman/openfin-csb-template.git"
   },
-  "keywords": [],
+  "keywords": [
+    "openfin",
+    "platform-api"
+  ],
   "author": "OpenFin",
   "license": "MIT",
   "bugs": {

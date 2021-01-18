@@ -7,7 +7,7 @@
   },
   "platform": {
     "uuid": "platform-window-application-style",
-    "applicationIcon": "https://5mqjx.csb.app/favicon.ico",
+    "applicationIcon": "https://798g9.csb.app/favicon.ico",
     "autoShow": false
   },
   "snapshot": {
@@ -34,7 +34,7 @@
                   "type": "component",
                   "componentName": "view",
                   "componentState": {
-                    "url": "https://5mqjx.csb.app/",
+                    "url": "https://798g9.csb.app/",
                     "name": "component_1584387105285"
                   },
                   "isClosable": true,

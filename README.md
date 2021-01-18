@@ -1,19 +1,19 @@
-# openfin-csb-template
-This is a basic template that can be used in codesandbox.
+# OpenFin Platform as Single Page App
 
-Some things you will need to update:
+This is a basic barebones app where we have configured the snapshot to have one url and hide the tab header. This makes it look like a single window even though you still have the power of the Platform API and the ability to customise the platform provider or the style of the header etc.
 
-In config/app.platform.fin.json, config/app.window.fin.json and app.csb.fin.json update:
+Some things you will need to update if you fork the github or codesandbox repo:
 
-* uuid : make the uuid unique
-* visit https://www.openfin.co and request a trial/developer license 
-* update the url field to reflect your codesandbox url
-* update the application icon to reflect your own icon
-* update the name and description to reflect your application
+In config/app.platform.fin.json update:
+
+- uuid : make the uuid unique
+- visit https://www.openfin.co and request a trial/developer license
+- update the url field to reflect your codesandbox url
+- update the application icon to reflect your own icon
+- update the name and description to reflect your application
 
 More information about OpenFin:
 
-* https://openfin.co/ -> main site
-* https://developers.openfin.co/docs/getting-started => getting started guide
-* https://github.com/openfin -> OpenFin Github repo
-
+- https://openfin.co/ -> main site
+- https://developers.openfin.co/docs/getting-started => getting started guide
+- https://github.com/openfin -> OpenFin Github repo
